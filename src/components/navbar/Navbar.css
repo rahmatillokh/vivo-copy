@@ -1,0 +1,34 @@
+.main{
+    height: 110vh;
+    background: url(../../assets/vivo.jpg) no-repeat center/cover;
+}
+.navbar .logo img{
+    color: #551a8b;
+    height: 100px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-top: -5vh;
+}
+.navbar .collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+.navbar .collection .item {
+    color: #242933;
+    font-size: 14px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.navbar .collection .item:hover{
+    color: #415FFF;
+}

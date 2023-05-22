@@ -1,0 +1,159 @@
+.explore__bolim{
+    background: rgb(245, 247, 250);
+    a{
+        text-decoration: none;
+        color: #242933;
+        margin-left: 10vh;
+        transition: ease-in-out 0.4s;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    a:hover{
+        color: #445fff;
+    }
+    .explore__tag{
+        margin-left: 85vh;
+        margin-top: 10vh;
+    }
+}
+.explore{
+    background: url(https://asia-exstatic.vivoglobal.com/static/bus/about-vivo/home/dist/img/banner-pc_9ada762.jpg) no-repeat center/cover;
+    height: 120vh;
+    h1{
+        font-size: 60px;
+        font-weight: normal;
+        color: #242933;
+        margin-top: 20vh;
+        margin-left: 10vh;
+        margin-bottom: 5vh;
+    }
+    p{
+        font-size: 22px;
+        font-weight: normal;
+        color: #242933;
+        margin-left: 10vh;
+        margin-bottom: 15vh;
+    }
+    a{
+        font-weight: normal;
+        margin-left: 0;
+    }
+    .row{
+        margin-left: 10vh;
+    }
+}
+.android-14{
+    margin-top: 10vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    img{
+        height: 80vh;
+        width: auto;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .right{
+        margin-left: 5vh;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: normal;
+        color: #242933;
+    }
+    h2{
+        margin-top: 10vh;
+        font-size: 32px;
+        font-weight: normal;
+        color: #242933;
+        margin-bottom: 10vh;
+    }
+    p{
+        font-size: 20px;
+        font-weight: normal;
+        color: #576c66;
+    }
+    margin-bottom: 5vh;
+}
+.explore__category{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    .category{
+        height: 350px;
+        width: 360px;
+        background: #fff;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    img{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        height: 216px;
+        width: 360px;
+        background-size: cover;
+    }
+    h3{
+        margin-left: 2vh;
+        margin-top: 3vh;
+        font-size: 18px;
+        font-weight: normal;
+        color: #242933;
+    }
+    p{
+        margin-left: 2vh;
+        font-size: 16px;
+        font-weight: normal;
+        color: #575c66;
+        margin-top: 2vh;
+    }
+
+}
+
+.explore__life{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    .explore__vivo{
+        background: #fff;
+        border-radius: 30px;
+    }
+    .explore__vivo:last-child{
+        margin-left: 7%;
+        height: 85vh;
+    }
+    .explore__vivo:first-child{
+        height: 85vh;
+        margin: 7%;
+    }
+    img{
+        width: 500px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    h3{
+        font-weight: normal;
+        font-size: 30px;
+        color: #242933;
+        padding-top: 3vh;
+    }
+    p{
+        padding-top: 2vh;
+        color: #575c66;
+        font-weight: normal;
+        font-size: 12px;
+        padding-bottom: 3vh;
+    }
+}

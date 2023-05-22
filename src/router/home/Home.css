@@ -1,0 +1,168 @@
+.x90__series{
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.x90__series .text {
+    position: absolute;
+    z-index: 555;
+}
+.x90__series .bg{
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.home {
+    background: rgb(245, 247, 250);
+}
+.x90__series .bg:hover{
+    transform: scale(1.01);
+}
+.x80__series{
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.x80__series img{
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.x80__series img:hover{
+    transform: scale(1.01);
+}
+
+
+
+
+.main .v27{
+    height: 45px;
+}
+
+.main .text{
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: 34px;
+}
+.links a:nth-child(2){
+    margin-left: 20px;
+}
+.links a{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+}
+.x90__series .text{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.x90__series .x90{
+    height: 35px;
+}
+
+.discover{
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.discover .left .item1 .text{
+    position: absolute;
+    z-index: 555;
+    margin-top: 150px;
+    margin-left: 1%;
+    color: #fff;
+}
+.discover .item img{
+    width: 400px;
+    position: relative;
+    margin-left: 2%;
+}
+.item img{
+    border-radius: 10px;
+}
+
+.main .links a{
+    color: #242933;
+    margin-top: 30px;
+    font-size: 24px;
+    transition: ease-in-out 0.3s;
+}
+.main .links a:hover{
+    color: #415FFF;
+}
+
+.x90__series .links a{
+    color: #242933;
+    margin-top: 30px;
+    font-size: 24px;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+}
+.x90__series .links a:hover{
+    color: #415FFF;
+}
+
+.x90__series .text h2{
+    font-weight: normal;
+}
+
+.discover__title{
+    font-size: 40px;
+    color: #242933;
+    font-weight: normal;
+    margin-left: 10%;
+}
+
+.discover{
+    margin-top: 1%;
+    margin-left: 15%;
+    padding-bottom: 7%;
+}
+.discover .item img{
+    width: 300px;
+    transition: ease-in-out 0.3s;
+}
+.discover .item img:hover{
+    transform: scale(1.01);
+}
+.discover .text h3{
+    font-weight: normal;
+}
+.discover .left .item2{
+    margin-top: 5%;
+}
+.discover .left .item2 .text{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.discover .center{
+    margin-left: 4%;
+}
+.discover .center .text{
+    position: absolute;
+    z-index: 555;
+    margin-top: 390px;
+    margin-left: 3%;
+    color: #fff;
+}
+.discover .rigth{
+    margin-left: 4%;
+}
+.discover .rigth .item1 .text{
+    margin: 6%;
+}
+.discover .rigth .item2 .text{
+    position: absolute;
+    z-index: 555;
+    margin-top: 180px;
+    margin-left: 2%;
+}
